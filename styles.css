@@ -1,1 +1,92 @@
 /* your code here */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(61, 240, 61, 0.555);
+  border-radius: 10px;
+}
+
+.product {
+  background-color: white;
+  display: inline-flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: -10px;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product__photo {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0px px rgba(0, 0, 0, 0.3);
+  margin-right: 10px;
+}
+
+.photo-main {
+  background-color: rgb(104, 211, 74);
+  height: 450px;
+  align-items: center;
+}
+
+.photo-album {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.photo-album-elements {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  border: 1px solid black;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+span {
+  opacity: 0.5;
+}
+
+.price {
+  color: red;
+  font-size: 3em;
+  margin: 15px;
+}
+
+h3 {
+  opacity: 0.5;
+}
+
+.no-style {
+  list-style-type: disc;
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.variant-elements {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.btn {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
